@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header {
+    background: #1b2a41;
+    color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ffbc00;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+section#home {
+    background: #1f4068;
+}
+
+section#missions {
+    background: #1b2a41;
+}
+
+section#technologies {
+    background: #4e6482;
+}
+
+section#future {
+    background: #2d3b53;
+}
+
+section#contact {
+    background: #354b5e;
+}
+
+footer {
+    background: #1b2a41;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
